@@ -1,0 +1,8 @@
+.card-group {
+  display: inline-flex;
+  padding: 0 5em;
+}
+
+.card-group > .card {
+  flex: initial;
+}
