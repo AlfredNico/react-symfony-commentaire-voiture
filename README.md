@@ -33,3 +33,7 @@ yarn start
 ```server:run
 npm start
 ```
+
+### remarque
+- Le connexion internet est indisposable pour que le style de ce site est parfaitement marché
+- Il y a l'utilisatuer par default, avec email `zaho@zaho.fr` et le mot de passe `12345`
