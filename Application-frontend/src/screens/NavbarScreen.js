@@ -24,7 +24,7 @@ export default function NavbarScreen() {
                 <Navbar.Toggle />
                 { currentUserValue() && <Navbar.Collapse className="justify-content-end">
                     <NavDropdown title={currentUserValue().username} id="basic-nav-dropdown">
-                        <NavDropdown.Item href="/loging" onClick={() => {dispatch(logoutAction())}}>Déconnecter</NavDropdown.Item>
+                        <NavDropdown.Item href="/login" onClick={() => {dispatch(logoutAction())}}>Déconnecter</NavDropdown.Item>
                     </NavDropdown>
                 </Navbar.Collapse>}
             </Container>
